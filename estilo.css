@@ -1,0 +1,166 @@
+body {
+  font-size: 1.563rem;
+  line-height: 1.4;
+
+  margin: 0 16px;
+}
+
+a {
+  color: dimgray;
+}
+
+.header {
+  margin-bottom: 64px;
+}
+
+.header-title {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 48px;
+}
+
+.header-title img {
+  height: 150px;
+  width: 150px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-title div {
+  flex: 1;
+  min-width: 400px;
+
+  text-align: center;
+
+  margin-top: 24px;
+}
+
+.header-title h1,
+.header-title p {
+  margin: 0;
+}
+
+@media (min-width: 640px) {
+  .header-title div {
+    text-align: right;
+  }
+}
+
+.content {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.index {
+  display: flex;
+  flex-direction: column;
+
+  color: white;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
+  padding: 24px 32px;
+  border-radius: 4px;
+
+  background: url(imagem/education.png);
+  background-size: cover;
+}
+
+.index ul {
+  display: flex;
+  flex-direction: column;
+
+  width: 50%;
+
+  gap: 16px;
+}
+
+.index a {
+  text-decoration: none;
+  color: lightgray;
+}
+
+.info {
+  padding: 16px;
+  border: 1px groove blue;
+  border-radius: 4px;
+}
+
+.info-header {
+  display: flex;
+  align-items: center;
+}
+
+.info-icon {
+  height: 32px;
+  width: 32px;
+  padding-right: 8px;
+}
+
+.quote {
+  padding-left: 1ch;
+
+  font-style: italic;
+
+  text-align: justify;
+}
+
+.quote::first-letter {
+  margin-left: -1ch;
+
+}
+
+.learn-more {
+  display: flex;
+  flex-wrap: wrap;
+
+  background: lightgray;
+
+  margin: 32px;
+  margin-bottom: 64px;
+
+}
+
+.learn-more iframe {
+  flex: 1;
+  min-width: 400px;
+
+  height: 100%;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+
+
+  margin: auto;
+}
+
+.learn-more-text {
+  flex: 1;
+  min-width: 400px;
+
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+
+  margin: auto 24px;
+}
+
+.learn-more-text p {
+  font-size: 1rem;
+}
+
+.footer {
+  background-color: #575e55;
+
+  color: white;
+  font-size: 1.25rem;
+  text-align: center;
+
+  padding: 10px;
+}
